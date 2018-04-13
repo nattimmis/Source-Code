@@ -1,0 +1,2 @@
+symbol = 'RHAT'
+c.execute("SELECT * FROM stocks WHERE symbol = '%s'" % symbol)
